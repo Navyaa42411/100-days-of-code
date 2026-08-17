@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+
+    printf("Enter the radius of circle: ");
+    scanf("%d", &a);
+
+    printf("The circumference of circle is %.2f\n", 2 * 3.14 * a);
+    printf("The area of circle is %.2f\n", 3.14 * a * a);
+
+    return 0;
+}
