@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+
+    printf("Enter the temperature(in celsius):\n ");
+    scanf("%d", &a);
+
+    printf("The temperature in fahrenheit is:%d",a *9/5 + 32 );
+    
+
+    return 0;
+}
