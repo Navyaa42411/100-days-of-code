@@ -1,0 +1,5 @@
+int a, c;
+    printf("Enter the numbers you want to swap:");
+    scanf("%d %d",&a,&c);
+    printf("After swap the numbers are %d and %d",c,a);
+    return 0;
