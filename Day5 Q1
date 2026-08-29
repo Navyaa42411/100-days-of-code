@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+   int n, r, t;
+   
+   printf("Enter the principal amount, rate of interest, time(in years):");
+   scanf("%d %d %d", &n, &r, &t);
+   printf("The simple interest is: %d\n", n * r * t / 100);
+   printf("The compound interest is %.2f\n", n * (pow(1 + r / 100.0, t) - 1));
+
+    return 0;
+}
+
