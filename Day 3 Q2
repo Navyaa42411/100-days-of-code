@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main(){
 
-int a, c;
+int a, c,b;
     printf("Enter the numbers you want to swap:");
     scanf("%d %d",&a,&c);
-    printf("After swap the numbers are %d and %d",c,a);
+   b = c;
+   c = a;
+   a = b;
+    printf("After swap the numbers are %d and %d",a,c);
     return 0;
 }
