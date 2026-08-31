@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int a;
+    char c;
+    printf("ENter a alphabet:");
+    scanf(" %c",&c);
+    a = c;
+    if(c<='z'&& c>='a'){
+
+        printf("The alphabet is a lowercase letter");
+    }
+    else if(c<='Z' && c>='A'){
+        printf("The alphabet is an uppercase letter");
+    }
+    else if(c<'0'&& c>'9'){
+        printf("The input is a digit");
+
+    }
+    else{
+        printf("The input is a special character");
+    }
+    return 0;
+}
