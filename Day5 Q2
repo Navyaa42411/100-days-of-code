@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+   int n;
+   printf("Enter a the time in seconds:");
+   scanf("%d",&n);
+   printf("The time in hours, minutes is : %d : %d\n", n/3600, (n%3600)/60);
+   return 0;
+}
