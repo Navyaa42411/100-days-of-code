@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+ int a,i,b,factors=1;
+ printf("Enter the two numbers you want to find the HCF of :");
+ scanf("%d %d",&a,&b);
+ printf("The HCF is:");
+ for(i=2;i<=a && i<=b;i++){
+  if(a%i==0&&b%i==0){
+    factors=i;
+    
+  }
+ }
+ printf("%d",factors);
+ 
+  return 0;
+}
