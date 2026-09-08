@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+ int a,i,factors=1;
+ printf("Enter the number you want to find the factors of :");
+ scanf("%d",&a);
+ printf("The factors are:");
+ for(i=2;i<a;i++){
+  if(a%i==0){
+    printf("%d ",i);
+    
+  }
+ }
+ 
+  return 0;
+}
