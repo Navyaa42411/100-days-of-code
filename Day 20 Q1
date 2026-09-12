@@ -1,14 +1,15 @@
+#include<stdio.h>
 int main(){
-    int a,sum=0,b,remaining;
+    int a,sum=1,b,remaining;
     printf("Enter the number  :");
     scanf("%d",&a);
     while(a>0){
         remaining=a%10;
         if(remaining%2!=0){
-            sum=sum+remaining;
+            sum=sum*remaining;
         }
-        a=a/10;
+        a=a/10;  
     }
-    printf("Sum of odd digits: %d",sum);
+     printf("Sum of odd digits: %d",sum);
     return 0;
 }
